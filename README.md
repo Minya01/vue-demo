@@ -24,9 +24,11 @@ npm run unit
 npm test
 ```
 
-### 环境
-* node v8.11.1
+## 环境
+
+* node v9.11.1
 * npm 5.6.0
 * vue 2.9.3
+
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
