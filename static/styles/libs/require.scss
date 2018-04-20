@@ -1,0 +1,42 @@
+// 引入公共文件
+
+// 自定义的一些方法
+@import "variables";
+@import "helper";
+@import "flex";
+@import "mixin";
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main{
+	padding-bottom: 3em;
+}
+a, button, input, textarea, select{
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+
+input{
+    border: 0 none;
+    outline: 0 none;
+}
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+.hidden{
+    display: none;
+}
+
+.cursor{
+	cursor: pointer;
+}
